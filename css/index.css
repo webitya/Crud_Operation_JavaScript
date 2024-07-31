@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button[type="search"]{
+    box-shadow:none !important;
+    border:2px inset white;
+    outline: none;
+}
+.shadowBtn,.btnShadow{
+    box-shadow: none !important;
+}
+.shadowBtn i{
+    margin:0px 2px;
+}
+.logoText{
+    font-size:24px !important;
+    font-weight:bold;
+    font-family: sans-serif;
+    color: teal;
+    user-select: none;
+    cursor:pointer;
+}
+.searchBtnShadow{
+    box-shadow: none !important;
+    border:2px solid teal;
+    border-radius:5px;
+    outline: none;
+}
+thead tr th{
+    font-size:19px;
+    font-family:sans-serif;
+    color:teal;
+    text-shadow:1px 1px rgba(255, 255, 255, 0.395);
+    user-select: none;
+}
